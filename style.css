@@ -1,0 +1,71 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #73000A; /* Gamecocks background */
+    color: white;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100px;
+    width: auto;
+}
+
+/* Toolbar styles */
+.toolbar {
+    background-color: #500008;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.toolbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toolbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styles */
+main {
+    background-color: #73000A; /* Garnet */
+    color: white; /* White text */
+    padding: 2rem;
+    min-height: calc(100vh - 160px); /* Full height minus header+toolbar */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #73000A;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ddd;
+}
